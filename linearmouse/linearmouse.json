@@ -1,0 +1,186 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.9.5",
+  "schemes" : [
+    {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "serialNumber" : "E55240320280E6B6",
+          "vendorID" : "0x46d",
+          "productName" : "M585\/M590",
+          "productID" : "0xb01b"
+        }
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 0.46,
+          "horizontal" : 1
+        },
+        "distance" : {
+          "vertical" : "auto"
+        },
+        "speed" : {
+          "horizontal" : 0,
+          "vertical" : 6.13
+        },
+        "modifiers" : {
+          "vertical" : {
+            "shift" : {
+              "type" : "auto"
+            },
+            "command" : {
+              "type" : "auto"
+            },
+            "option" : {
+              "type" : "auto"
+            },
+            "control" : {
+              "type" : "auto"
+            }
+          }
+        }
+      },
+      "buttons" : {
+        "universalBackForward" : true,
+        "mappings" : [
+          {
+            "action" : "missionControl.spaceLeft",
+            "scroll" : "left",
+            "shift" : false,
+            "command" : false,
+            "option" : false,
+            "control" : false
+          },
+          {
+            "action" : "missionControl.spaceRight",
+            "command" : false,
+            "scroll" : "right",
+            "control" : false,
+            "option" : false,
+            "shift" : false
+          }
+        ]
+      },
+      "pointer" : {
+        "speed" : 0.0689655172413792768,
+        "disableAcceleration" : false,
+        "acceleration" : 1.3148
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "category" : "trackpad",
+          "vendorID" : "0x5ac",
+          "productName" : "Apple Internal Keyboard \/ Trackpad",
+          "productID" : "0x343"
+        }
+      },
+      "scrolling" : {
+        "speed" : {
+          "vertical" : 0
+        },
+        "acceleration" : {
+          "vertical" : 1
+        }
+      },
+      "buttons" : {
+        "universalBackForward" : false
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "vendorID" : "0x46d",
+          "serialNumber" : "207437655943",
+          "productName" : "Advanced Corded Mouse M500s",
+          "productID" : "0xc093",
+          "category" : "mouse"
+        }
+      },
+      "buttons" : {
+        "mappings" : [
+          {
+            "option" : false,
+            "scroll" : "left",
+            "command" : false,
+            "control" : false,
+            "action" : "missionControl.spaceLeft",
+            "shift" : false
+          },
+          {
+            "command" : false,
+            "control" : false,
+            "action" : "missionControl.spaceRight",
+            "scroll" : "right",
+            "shift" : false,
+            "option" : false
+          }
+        ]
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "productName" : "Advanced Corded Mouse M500s",
+          "serialNumber" : "206C387B5943",
+          "category" : "mouse",
+          "vendorID" : "0x46d",
+          "productID" : "0xc093"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 2.1747
+      },
+      "buttons" : {
+        "mappings" : [
+          {
+            "scroll" : "right",
+            "shift" : false,
+            "control" : false,
+            "option" : false,
+            "action" : "missionControl.spaceRight",
+            "command" : false
+          },
+          {
+            "option" : false,
+            "shift" : false,
+            "scroll" : "left",
+            "command" : false,
+            "control" : false,
+            "action" : "missionControl.spaceLeft"
+          }
+        ]
+      }
+    },
+    {
+      "pointer" : {
+        "speed" : 0.1027,
+        "disableAcceleration" : false,
+        "acceleration" : 1.2388
+      },
+      "if" : {
+        "device" : {
+          "productID" : "0xb02a",
+          "productName" : "Logi M650",
+          "category" : "mouse",
+          "vendorID" : "0x46d",
+          "serialNumber" : "546EAF7B"
+        }
+      },
+      "scrolling" : {
+        "reverse" : {
+          "vertical" : false
+        },
+        "speed" : {
+          "vertical" : 25.14,
+          "horizontal" : 0
+        },
+        "acceleration" : {
+          "vertical" : 1.2,
+          "horizontal" : 1
+        }
+      }
+    }
+  ]
+}

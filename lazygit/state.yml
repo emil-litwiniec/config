@@ -1,0 +1,25 @@
+lastupdatecheck: 0
+recentrepos:
+- /Users/emil/dev/paxit-3d-app
+- /Users/emil/dev/saas-boilerplate
+- /Users/emil/dev/rnd-merchant-of-records
+- /Users/emil/dev/rust_wgpu
+- /Users/emil/dev/bcg_rome/frontend
+- /Users/emil/dev/bcg_rome/backend
+- /Users/emil/dev/frontend
+- /Users/emil/dev/git-test
+- /Users/emil/.config/nvim
+startuppopupversion: 5
+customcommandshistory:
+- q
+- ///
+- qq;q
+- q;;;q
+- ""
+- qa!
+- wa
+- 'git commit -n -m "fix: Type errors | Resolve CR comment"'
+- 'G commit -n -m "fix: Wrong fee info title"'
+- 'git commit -n -m fix: Wrong fee info title"'
+- 'git commit -n -m "fix: Wrong fee title key"'
+hidecommandlog: false
